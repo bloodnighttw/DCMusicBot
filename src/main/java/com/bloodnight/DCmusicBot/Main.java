@@ -2,6 +2,7 @@ package com.bloodnight.DCmusicBot;
 
 import com.Bloodnight.JDATool.CommandSystem.CommandManager;
 import com.bloodnight.DCmusicBot.command.Join;
+import com.google.gson.Gson;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import org.apache.log4j.BasicConfigurator;
@@ -17,17 +18,9 @@ public class Main {
 
     public static void main(String[] args) throws LoginException {
 
-        //BasicConfigurator.configure();
-
-        JDA jda=new JDABuilder("NDc5OTg1NDI1MTUxNDI2NTcz.Xb5U-g.fLM4MZo5ZHJizrX8yeVXcNO856c").build();
-        //toolLoader tl=new toolLoader(jda);
+        JDA jda=new JDABuilder(privacy.token).build();
         CommandManager cm=new CommandManager(jda);
         cm.addCommand(new Join());
-
-
-
-
-
 
     }
 }
