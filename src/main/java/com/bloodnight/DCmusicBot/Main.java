@@ -23,8 +23,8 @@ public class Main {
         //toolLoader tl=new toolLoader(jda);
         CommandManager cm=new CommandManager(jda);
         cm.addCommand(new Join());
-        //cm.addCommand(new ShutDown());
-        ;
+
+
 
 
 
