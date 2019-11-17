@@ -1,4 +1,4 @@
-package com.bloodnight.DCmusicBot;
+package com.bloodnight.DCmusicBot.privacy;
 
 public class privacy {
     public static String token="";

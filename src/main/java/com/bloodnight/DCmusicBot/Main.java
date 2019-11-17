@@ -2,10 +2,9 @@ package com.bloodnight.DCmusicBot;
 
 import com.Bloodnight.JDATool.CommandSystem.CommandManager;
 import com.bloodnight.DCmusicBot.command.Join;
-import com.google.gson.Gson;
+import com.bloodnight.DCmusicBot.privacy.privacy;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
-import org.apache.log4j.BasicConfigurator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
